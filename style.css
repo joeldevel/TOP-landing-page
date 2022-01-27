@@ -5,6 +5,7 @@
     --text-white: #f9faf8;
     --cta-primary: #3882f6;
     --text-white-secondary: #e5e7eb;
+    --img-placeholder: #6d747d;
 }
 
 * {
@@ -56,6 +57,11 @@ nav a {
     font-size: 18px;
 }
 
+nav a:hover {
+    color: var(--text-white);
+    text-decoration: underline;
+}
+
 header {
     background: var(--bg-dark);
     color: var(--text-white);
@@ -88,9 +94,7 @@ h1 {
 }
 
 .img-placeholder {
-    /* height: 500px; */
-    /* width: 200px; */
-    background: #777;
+    background: var(--img-placeholder);
     flex: 1 0 50%;
     display: flex;
     justify-content: center;
